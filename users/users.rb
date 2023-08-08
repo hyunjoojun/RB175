@@ -3,7 +3,6 @@ require "yaml"
 require 'sinatra'
 require 'sinatra/reloader'
 require 'tilt/erubis'
-require 'pry'
 
 before do
   @users = YAML.load_file("users.yaml")
